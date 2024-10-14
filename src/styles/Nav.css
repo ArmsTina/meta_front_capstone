@@ -1,0 +1,39 @@
+#header-nav ul,
+#footer-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* 링크 스타일 */
+li a {
+    text-decoration: none;
+    margin-left: 1.5vw;
+    color: black;
+    font-size: 1.25rem;
+    font-family: "Karla";
+    font-weight: bold;
+}
+
+#footer-nav a {
+    color: #333333;
+}
+
+/* 작은 화면에서의 네비게이션 스타일 */
+@media (max-width: 600px) {
+    #header-nav ul,
+    #footer-nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    li a {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+}

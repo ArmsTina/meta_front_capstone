@@ -1,0 +1,93 @@
+/* About 섹션 스타일 */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1;
+    font-family: 'Karla';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-family: 'Markazi Text';
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.about-text h3 {
+    font-family: 'Markazi Text';
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 25rem;
+}
+
+.about-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+    flex: 1;
+}
+
+.about-images img {
+    width: 100%;
+    max-width: 18.75rem;
+    overflow: hidden;
+}
+
+/* 겹치는 이미지 스타일 */
+.about-images img:nth-child(1) {
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+    z-index: 0;
+}
+
+.about-images img:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    margin-top: 8rem;
+}
+
+@media (max-width: 37.5rem) {
+    #about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .about-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-images img:nth-child(1) {
+        position: static;
+    }
+
+    .about-images img:nth-child(2) {
+        position: static;
+        margin-top: 0;
+    }
+}

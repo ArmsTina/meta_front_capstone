@@ -1,0 +1,34 @@
+/* 버튼 스타일 */
+input[type="button"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #F4CE14;
+    color: black;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: black;
+    color: white;
+}
+
+/* 카드 레이아웃 */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+/* 작은 화면에서의 스타일링 */
+@media (max-width: 37.5rem) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
