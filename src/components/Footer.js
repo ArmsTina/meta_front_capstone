@@ -1,9 +1,9 @@
-import React from 'react';
-import Logo from '../assets/Logo_2.svg';
-import Instagram from '../assets/instagram.png';
-import Twitter from '../assets/twitter X.png';
-import Facebook from '../assets/facebook.png';
-import Nav from './Nav';
+import React from "react";
+import Logo from "../assets/Logo_2.svg";
+import Instagram from "../assets/instagram.png";
+import Twitter from "../assets/twitter X.png";
+import Facebook from "../assets/facebook.png";
+import Nav from "./Nav";
 
 function Footer() {
   return (
@@ -24,13 +24,25 @@ function Footer() {
       <div className="category social-media">
         <h3>Social Media</h3>
         <div>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={Instagram} alt="Instagram Logo" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={Twitter} alt="Twitter Logo" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={Facebook} alt="Facebook Logo" />
           </a>
         </div>

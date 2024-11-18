@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../../styles/Highlights.css';
-import Food1 from '../../assets/greek salad.jpg';
-import Food2 from '../../assets/bruchetta.svg';
-import Food3 from '../../assets/lemon dessert.jpg';
-import Delivery from '../../assets/Dish icon.svg';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../../styles/Highlights.css";
+import Food1 from "../../assets/greek salad.jpg";
+import Food2 from "../../assets/bruchetta.svg";
+import Food3 from "../../assets/lemon dessert.jpg";
+import Delivery from "../../assets/Dish icon.svg";
 
 function Highlights() {
   return (
@@ -12,7 +12,9 @@ function Highlights() {
       <article id="highlights">
         <div className="highlights-header">
           <h2>Specials</h2>
-          <input type="button" value="Order Now" />
+          <Link to="/order">
+            <input type="button" value="Order Now" />
+          </Link>
         </div>
         <div className="cards">
           <section>
@@ -22,9 +24,15 @@ function Highlights() {
               <span className="price">$ 12.99</span>
             </div>
             <p>
-              The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
+              The famous greek salad of crispy lettuce, peppers, olives and our
+              Chicago style feta cheese, garnished with crunchy garlic and
+              rosemary croutons.
             </p>
-            <Link to="/order"><span className="order">Order a delivery <img src={Delivery} alt="Delivery Icon" /></span></Link>
+            <Link to="/order">
+              <span className="order">
+                Order a delivery <img src={Delivery} alt="Delivery Icon" />
+              </span>
+            </Link>
           </section>
 
           <section>
@@ -34,9 +42,14 @@ function Highlights() {
               <span className="price">$ 5.99</span>
             </div>
             <p>
-              Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
+              Our Bruschetta is made from grilled bread that has been smeared
+              with garlic and seasoned with salt and olive oil.
             </p>
-            <Link to="/order"><span className="order">Order a delivery <img src={Delivery} alt="Delivery Icon" /></span></Link>
+            <Link to="/order">
+              <span className="order">
+                Order a delivery <img src={Delivery} alt="Delivery Icon" />
+              </span>
+            </Link>
           </section>
 
           <section>
@@ -46,9 +59,15 @@ function Highlights() {
               <span className="price">$ 5.00</span>
             </div>
             <p>
-              This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
+              This comes straight from grandma’s recipe book, every last
+              ingredient has been sourced and is as authentic as can be
+              imagined.
             </p>
-            <Link to="/order"><span className="order">Order a delivery <img src={Delivery} alt="Delivery Icon" /></span></Link>
+            <Link to="/order">
+              <span className="order">
+                Order a delivery <img src={Delivery} alt="Delivery Icon" />
+              </span>
+            </Link>
           </section>
         </div>
       </article>

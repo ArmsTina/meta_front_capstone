@@ -1,13 +1,12 @@
-import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './pages/Home';
-import About from './pages/About';
-import Menu from './pages/Menu';
-import Reservations from './pages/Reservations';
-import Order from './pages/Order';
-import Login from './pages/Login';
-import { Routes, Route } from 'react-router-dom';
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Menu from "./pages/Menu";
+import Reservations from "./pages/Reservations";
+import Order from "./pages/Order";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/order" element={<Order />} />
-        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </>

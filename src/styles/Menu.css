@@ -1,0 +1,48 @@
+#menu section {
+  text-align: center;
+}
+
+#menu img {
+  width: 100%;
+  height: auto;
+  max-width: 20rem;
+  max-height: 15rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+#menu img:nth-of-type(4) {
+  max-width: 10px;
+  max-height: 10px;
+}
+
+#menu h3 {
+  font-family: "Markazi Text";
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+#menu .price {
+  font-family: "Karla";
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#menu p {
+  font-family: "Karla";
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+#menu section:nth-child(odd) {
+  background-color: #edefee;
+  color: #333333;
+}
+
+#menu section:nth-child(even) {
+  background-color: #333333;
+  color: #edefee;
+}

@@ -1,9 +1,9 @@
-import React from 'react'
-import '../styles/Home.css'
-import Hero from '../components/home/Hero'
-import Highlights from '../components/home/Highlights'
-import Testimonials from '../components/home/Testimonials'
-import About from '../components/home/About'
+import React from "react";
+import "../styles/Home.css";
+import Hero from "../components/home/Hero";
+import Highlights from "../components/home/Highlights";
+import Testimonials from "../components/home/Testimonials";
+import About from "../components/home/About";
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
         <About></About>
       </main>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
