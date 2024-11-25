@@ -1,30 +1,65 @@
-import React from "react";
-import "../styles/reservations.css";
+import React, { useState } from "react";
+import "../styles/Reservations.css";
 
 function Reservations() {
+  const [data, setData] = useState({
+    name: "",
+    date: "",
+    time: "0900-0930",
+    people: "",
+    phone: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setData({
+      ...data,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = () => {
+    alert(
+      `Name: ${data.name}\nDate: ${data.date}\nTime: ${data.time}\nNumber of People: ${data.people}\nPhone: ${data.phone}\nReservation submitted successfully!`
+    );
+  };
+
   return (
     <>
       <main id="reservation">
-        <form>
+        <form method="GET" onSubmit={handleSubmit}>
           <div>
-            <label for="preferred-name">Preferred Name</label>
+            <label htmlFor="preferred-name">Preferred Name</label>
             <input
               type="text"
               id="preferred-name"
-              name="preferred-name"
+              name="name"
+              value={data.name}
+              onChange={handleChange}
               required
             />
           </div>
           <div>
-            <label for="date">Date</label>
-            <input type="date" id="date" name="date" required />
+            <label htmlFor="date">Date</label>
+            <input
+              type="date"
+              id="date"
+              name="date"
+              value={data.date}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div>
-            <label for="time">Time</label>
-            <select id="time" name="time" required>
-              <option value="0900-0930" selected>
-                09:00 ~ 09:30
-              </option>
+            <label htmlFor="time">Time</label>
+            <select
+              id="time"
+              name="time"
+              value={data.time}
+              onChange={handleChange}
+              required
+            >
+              <option value="0900-0930">09:00 ~ 09:30</option>
               <option value="0930-1000">09:30 ~ 10:00</option>
               <option value="1000-1030">10:00 ~ 10:30</option>
               <option value="1030-1100">10:30 ~ 11:00</option>
@@ -45,17 +80,27 @@ function Reservations() {
             </select>
           </div>
           <div>
-            <label for="people">Number of People</label>
-            <input type="number" id="people" name="people" min="1" required />
+            <label htmlFor="people">Number of People</label>
+            <input
+              type="number"
+              id="people"
+              name="people"
+              min="1"
+              value={data.people}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div>
-            <label for="phone">Phone</label>
+            <label htmlFor="phone">Phone</label>
             <input
               type="tel"
               id="phone"
               name="phone"
               placeholder="000-000-0000"
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              value={data.phone}
+              onChange={handleChange}
               required
             />
           </div>
