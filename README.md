@@ -25,6 +25,7 @@ Comments and the README were revised by ChatGPT.
 - **React**: Built with React for dynamic and efficient UI rendering.
 - **React Router**: Enables seamless navigation across the website's pages.
 - **CSS**: Custom styles for a responsive and visually appealing design.
+- **Google Map API**: Showing Google Map on the website
 
 ---
 
