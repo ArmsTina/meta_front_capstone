@@ -15,8 +15,8 @@ Comments and the README were revised by ChatGPT.
 - **Home Page**: A welcoming page introducing Little Lemon and its unique offerings. ✅
 - **About Page**: Learn about the history, mission, team behind, and information of Little Lemon. ✅
 - **Menu Page**: Explore the delicious food and drink options available. ✅
-- **Reservations Page**: Book a table at Little Lemon with a user-friendly reservation form. ▶️
-- **Online Order Page**: Order your favorite dishes for pickup or delivery. ▶️
+- **Reservations Page**: Book a table at Little Lemon with a user-friendly reservation form. ✅
+- **Online Order Page**: Order your favorite dishes for pickup or delivery. ✅
 
 ---
 
@@ -25,6 +25,7 @@ Comments and the README were revised by ChatGPT.
 - **React**: Built with React for dynamic and efficient UI rendering.
 - **React Router**: Enables seamless navigation across the website's pages.
 - **CSS**: Custom styles for a responsive and visually appealing design.
+- **Google Map API**: Showing Google Map on the website
 
 ---
 
