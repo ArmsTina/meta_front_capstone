@@ -1,6 +1,6 @@
 # Little Lemon Restaurant
 
-This project is a webpage for the fictional Little Lemon Restaurant, created as part of the **Meta Front-End Developer Capstone Course**. The website showcases the restaurant's key features, including its menu, reservations, and online order system.
+Welcome to the Little Lemon Restaurant webpage, a capstone project for the Meta Front-End Developer Course. This website highlights the unique culinary experience at Little Lemon, featuring a user-friendly interface to explore the menu, make reservations, and place online orders.
 
 Comments and the README were revised by ChatGPT.
 
@@ -13,7 +13,7 @@ Comments and the README were revised by ChatGPT.
 ## Features
 
 - **Home Page**: A welcoming page introducing Little Lemon and its unique offerings. ✅
-- **About Page**: Learn about the history, mission, team behind, and information of Little Lemon. ✅
+- **About Page**: Learn about the history, mission, team behind, and information about Little Lemon. ✅
 - **Menu Page**: Explore the delicious food and drink options available. ✅
 - **Reservations Page**: Book a table at Little Lemon with a user-friendly reservation form. ✅
 - **Online Order Page**: Order your favorite dishes for pickup or delivery. ✅
@@ -52,6 +52,7 @@ Comments and the README were revised by ChatGPT.
 ---
 
 ## Future Improvements
+For now, in this project, traditional client-side JavaScript is minimal as React (a JavaScript library) handles most of the dynamic aspects of the website. This approach allows for a more organized and modular development process, focusing on components rather than separate JavaScript files for interactivity.
 
 - Add a contact form for customer inquiries.
 - Implement user authentication for reservations and online orders.
