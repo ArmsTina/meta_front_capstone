@@ -4,13 +4,16 @@ Welcome to the Little Lemon Restaurant webpage, a capstone project for the Meta 
 
 Comments and the README were revised by ChatGPT.
 
+# Preview of the Website
+<p style="text-align:center">
+   <img src="https://private-user-images.githubusercontent.com/113062069/399600834-b01dcd75-bcce-4ea7-bafc-f2eed0cfadd5.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3ODQ0NjksIm5iZiI6MTczNTc4NDE2OSwicGF0aCI6Ii8xMTMwNjIwNjkvMzk5NjAwODM0LWIwMWRjZDc1LWJjY2UtNGVhNy1iYWZjLWYyZWVkMGNmYWRkNS5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDEwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMDJUMDIxNjA5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTAzNWVjZmUwYTc4OGQ1MjRjZWYxMTlkNjEyNDc3NmY5OGZiOTRjMjIwOTFhMWNiNGE2OTUzMzAyNDRmMTEwYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.l-ce0x7nWxniEDgQRGUupE8qsP3MTGIYwkkw_ADdZ1g">
+</p>
+
+# Features
+
 ✅ This emoji indicates a completed part.
 
 ▶️ This emoji indicates a part in progress.
-
----
-
-## Features
 
 - **Home Page**: A welcoming page introducing Little Lemon and its unique offerings. ✅
 - **About Page**: Learn about the history, mission, team behind, and information about Little Lemon. ✅
