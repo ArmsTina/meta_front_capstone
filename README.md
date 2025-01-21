@@ -1,5 +1,5 @@
 # Little Lemon Restaurant
-https://dylittlelemon.netlify.app/
+https://dylittlelemon.netlify.app/ Hosted by [Netlify](https://www.netlify.com/)
 
 Welcome to the Little Lemon Restaurant webpage, a capstone project for the Meta Front-End Developer Course. This website highlights the unique culinary experience at Little Lemon, featuring a user-friendly interface to explore the menu, make reservations, and place online orders.
 
