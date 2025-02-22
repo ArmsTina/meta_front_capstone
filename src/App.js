@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Reservations from "./pages/Reservations";
-import Order from "./pages/Order";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
