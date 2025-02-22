@@ -12,7 +12,7 @@ function Highlights() {
       <article id="highlights">
         <div className="highlights-header">
           <h2>Specials</h2>
-          <Link to="/order">
+          <Link to="/menu">
             <input type="button" value="All Menus" />
           </Link>
         </div>
