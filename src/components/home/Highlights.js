@@ -13,7 +13,7 @@ function Highlights() {
         <div className="highlights-header">
           <h2>Specials</h2>
           <Link to="/order">
-            <input type="button" value="Order Now" />
+            <input type="button" value="All Menus" />
           </Link>
         </div>
         <div className="cards">
