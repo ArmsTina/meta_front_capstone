@@ -18,9 +18,6 @@ function Nav({ id }) {
         <li>
           <Link to="/reservations">Reservations</Link>
         </li>
-        <li>
-          <Link to="/order">Order Online</Link>
-        </li>
       </ul>
     </nav>
   );
